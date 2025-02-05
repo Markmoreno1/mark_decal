@@ -1,0 +1,12 @@
+# pwd print working directory we can use it to show us our current location in our system and i belive there are no flags youd ussually use with it but the -p and -L can be used when printing the directories
+# cd change directory we use this to move to a specified directory there are no specific flags we can use with this command
+# ls command prints files and directories inside our current directory we use this when we with to see what is inside the place we are at. we can use the -l flag to  which would be used to make a long listing with detailed information
+# mkdir creates a new directory we would use this command when we would want to create a new directory and an example of a flag is the -m flag that we can use to specify the permissions for the directory we are creating
+# cp command used to copy a file we would use this when we would want to copy a file from one location to another we can use the -r flag with this to copy a specific directory
+# mv the move command is used when we would want to comepletely move a file from one directory to another and we could use the -b flag to create a backup of the file that is about to be moved
+# git allows you to keep track of diffrent versions of a coding project and collab with others but you have to manually save your code, git hub is like a cloud version of git where you can collab with others esily and have remote repositories for your code that can function as backups is the case of a crash and git bash is a termial for windows thats allows us to use git
+# the terminal is and interface that allows us to interact with our computers while the command line is and instruction that we enter into the terminal to let the computer know what to do
+# windows powershell uses a diffrent language than git bash which uses python
+# anaconda is a programing languge that gives us the ability to write programs while anaconda and conda are basically tools that help us use python more effectively
+# jupyter notebook is an interface that allows us to write and run code as well as organize it in a way that is reminicent of a notebook while jupyter lab is essentially a more powerful advanced version of its simpler cousin that supports more files and actions
+# vs code is a code editor that allows us to write troubleshoot and run our code in various languages and it is integrated with git so for our purposes they funtion together very well.
