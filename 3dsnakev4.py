@@ -5,7 +5,7 @@ import random
 class Snake3DGame(ShowBase):
     def __init__(self):
         super().__init__()
-        # Disable default camera controls and set an isometric view
+        # Disable default camera fix camera
         self.disableMouse()
         self.step = 1                # movement increment
         self.grid_size = 20          # grid spans from -10 to +10 on x and y
@@ -13,7 +13,7 @@ class Snake3DGame(ShowBase):
         self.move_interval = 0.2     # seconds between moves
         self.elapsed = 0             # accumulator for timing
 
-        # Camera positioning for a clear 3D view
+        # Camera positioning (try changing perspective depening on which plane we are traveling on)
         cam_dist = self.grid_size * 1.5
         cam_height = self.grid_size * .5
         self.camera.setPos(0, -cam_dist, cam_height)
