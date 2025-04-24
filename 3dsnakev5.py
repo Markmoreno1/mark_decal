@@ -16,7 +16,7 @@ class Snake3DGame(ShowBase):
         self.move_interval = 0.2     # seconds between moves
         self.elapsed = 0             # accumulator for timing
 
-        # Camera positioning for a clear 3D view
+        # Camera positioning
         cam_dist = self.grid_size * 1.5
         cam_height = self.grid_size * .8
         cam_tilt = self.grid_size * 1
