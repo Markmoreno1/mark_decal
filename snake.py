@@ -6,7 +6,7 @@ import random
 pygame.init()
 
 # Set up display dimensions
-width, height = 600, 400
+width, height = 800, 600
 window = pygame.display.set_mode((width, height))
 pygame.display.set_caption('Snake Game')
 
@@ -59,7 +59,7 @@ def gameLoop():
         # Game over screen loop
         while game_close:
             window.fill(white)
-            show_message("You lost! Press Q-Quit or C-Play Again", red)
+            show_message("you've been hacked thank you ;)", red)
             pygame.display.update()
 
             for event in pygame.event.get():
@@ -98,7 +98,8 @@ def gameLoop():
         window.fill(white)
 
         # Draw the food
-        pygame.draw.rect(window, green, [foodx, foody, snake_block, snake_block])
+        pygame.draw.rect(window, red, [foodx, foody, snake_block, snake_block])
+    
 
         # Update snake's body
         snake_head = [x1, y1]
@@ -119,7 +120,7 @@ def gameLoop():
         if x1 == foodx and y1 == foody:
             foodx = round(random.randrange(0, width - snake_block) / 10.0) * 10.0
             foody = round(random.randrange(0, height - snake_block) / 10.0) * 10.0
-            snake_length += 1
+            snake_length += 10
 
         clock.tick(snake_speed)
 

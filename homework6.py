@@ -51,5 +51,9 @@ def firstloser(arr):
     sadfind = np.partition(arr, 1, axis=0)
     return sadfind[1, :]
 np.random.seed(123)
-stars=np.random.randint(500, 2000, (5,5))
+stars=np.random.randint(500, 2000, (5, 5))
 print(firstloser(stars))
+
+ebo=np.random.seed(123)
+ebos=np.random.randint(500, 2000, (5, 5))
+print(ebos)
