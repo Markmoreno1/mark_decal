@@ -11,7 +11,7 @@ class Snake3DGame(ShowBase):
         # Disable default camera controls and set an isometric view
         self.disableMouse()
         self.step = 1                # movement increment
-        self.grid_size = 10          # grid spans from -10 to +10 on x and y
+        self.grid_size = 20          # grid spans from -10 to +10 on x and y
         self.layer_count = 10         # number of Z-layers
         self.move_interval = 0.2     # seconds between moves
         self.elapsed = 0             # accumulator for timing
